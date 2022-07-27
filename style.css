@@ -15,7 +15,9 @@ body {
     display: flex;
 }
 
-
+.column {
+    flex-direction: column;
+}
 
 /* content */
 
@@ -36,11 +38,18 @@ aside {
 }
 
 /* main */
-
+main {
+    flex-grow: 1;
+}
 
 
 /* header */
-
+header {
+    height: 10vh;
+    position: absolute;
+    top: 0px;
+    background-color: aqua;
+}
 
 
 
