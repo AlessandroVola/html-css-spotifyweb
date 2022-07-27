@@ -19,12 +19,17 @@ body {
     flex-direction: column;
 }
 
+.align-center {
+    align-items: center;
+}
+
 /* content */
 
 /* container */
 .container {
     height: 90vh;
     background-color: indigo;
+
 }
 
 
@@ -32,14 +37,25 @@ body {
 aside {
     position: fixed;
     left: 0;
-    background-color: blue;
-    width: 250px;
+    background-color: #000000;
+    width: 200px;
     height: 100%;
+    z-index: 1;
+    color: white;
 }
+
+aside>* {
+    padding: 10px 25px;
+}
+
+aside div:last-child {}
+
+
 
 /* main */
 main {
     flex-grow: 1;
+
 }
 
 
@@ -48,9 +64,10 @@ header {
     height: 10vh;
     position: absolute;
     top: 0px;
-    background-color: aqua;
+    background-color: #090b12;
+    width: 100%;
+    opacity: 0.8;
 }
-
 
 
 
@@ -62,6 +79,7 @@ footer {
     background-color: darkgoldenrod;
     height: 10vh;
     width: 100%;
+    z-index: 2;
 }
 
 /* query */
