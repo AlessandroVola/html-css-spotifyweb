@@ -6,4 +6,53 @@
 
 body {
     font-family: sans-serif;
+    height: 100vh;
+    background-color: black;
 }
+
+/* utilities */
+.flex {
+    display: flex;
+}
+
+
+
+/* content */
+
+/* container */
+.container {
+    height: 90vh;
+    background-color: indigo;
+}
+
+
+/* aside */
+aside {
+    position: fixed;
+    left: 0;
+    background-color: blue;
+    width: 250px;
+    height: 100%;
+}
+
+/* main */
+
+
+
+/* header */
+
+
+
+
+
+
+/* footer */
+footer {
+    position: fixed;
+    bottom: 0;
+    background-color: darkgoldenrod;
+    height: 10vh;
+    width: 100%;
+}
+
+/* query */
