@@ -46,6 +46,14 @@ h4 {
     justify-content: flex-end;
 }
 
+.justify-center {
+    justify-content: center;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
 /* content */
 /* desktop first */
 .web-app {
@@ -135,10 +143,40 @@ header a {
 
 }
 
-/* super x es */
-.super {
+/* album */
+.album {
     min-height: 300vh;
     background-color: #141922;
+    padding-top: 100px;
+}
+
+/* typenav */
+.typenav>* {
+    padding: 0 8px;
+    color: white;
+    opacity: 0.5;
+    font-size: 0.8rem;
+}
+
+
+
+
+/* series */
+.series {
+    color: white;
+    padding: 10px 0px 0px 30px;
+}
+
+.series img {
+    width: 175px;
+}
+
+.card {
+    padding: 20px 20px 20px 0;
+}
+
+.circle img {
+    border-radius: 50%;
 }
 
 
