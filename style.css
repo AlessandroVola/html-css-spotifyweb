@@ -1,3 +1,11 @@
+/* variables */
+
+:root {
+    --padding: 10px;
+}
+
+
+/* generics */
 * {
     margin: 0;
     padding: 0;
@@ -6,8 +14,11 @@
 
 body {
     font-family: sans-serif;
-    height: 100vh;
-    background-color: black;
+}
+
+
+img {
+    width: 100%;
 }
 
 /* utilities */
@@ -23,63 +34,94 @@ body {
     align-items: center;
 }
 
+.space-between {
+    justify-content: space-between;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
 /* content */
+/* desktop first */
+.web-app {
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+
 
 /* container */
-.container {
-    height: 90vh;
-    background-color: indigo;
-
+#app-container {
+    flex-grow: 1;
+    display: flex;
 }
 
 
 /* aside */
+
 aside {
-    position: fixed;
-    left: 0;
-    background-color: #000000;
-    width: 200px;
+    padding: 20px 80px 20px 20px;
     height: 100%;
-    z-index: 1;
-    color: white;
+    background-color: black;
 }
 
-aside>* {
-    padding: 10px 25px;
+aside img {
+    width: 130px;
 }
 
-aside div:last-child {}
 
 
 
 /* main */
 main {
     flex-grow: 1;
-
+    position: relative;
 }
 
 
 /* header */
 header {
-    height: 10vh;
+    opacity: 0.5;
+    background-color: dimgrey;
     position: absolute;
-    top: 0px;
-    background-color: #090b12;
+    top: 0;
     width: 100%;
-    opacity: 0.8;
+    padding: var(--padding);
 }
 
+header a {
+    border-radius: 30px;
+    background-color: none;
+    border: 1px solid white;
+    color: white;
+    text-decoration: none;
+    padding: 5px 30px;
+}
 
+/* album-container */
+#album-container {
+    overflow-y: auto;
+    height: calc(100vh - 10vh);
+}
+
+/* super x es */
+.super {
+    min-height: 300vh;
+    background-color: azure;
+}
 
 
 /* footer */
 footer {
-    position: fixed;
-    bottom: 0;
     background-color: darkgoldenrod;
     height: 10vh;
     width: 100%;
-    z-index: 2;
 }
 
+
+
 /* query */
+@media screen and {}
