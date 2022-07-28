@@ -167,12 +167,23 @@ header a {
     padding: 10px 0px 0px 30px;
 }
 
-.series img {
-    width: 175px;
-}
+
 
 .card {
-    padding: 20px 20px 20px 0;
+    width: 180px;
+    padding: 20px 15px 20px 0;
+}
+
+.card div {
+    padding: 5px 5px;
+}
+
+.name {
+    font-weight: 700;
+}
+
+.subtitle {
+    font-size: 0.8rem;
 }
 
 .circle img {
@@ -190,3 +201,8 @@ footer {
 
 
 /* query */
+@media screen and (max-width:878px) {
+    .card {
+        width: 150px;
+    }
+}
