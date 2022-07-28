@@ -108,6 +108,10 @@ aside>div>div {
     padding: 0 5px 0 0;
 }
 
+.logo-small {
+    display: none;
+}
+
 
 
 /* main */
@@ -205,4 +209,53 @@ footer {
     .card {
         width: 150px;
     }
+}
+
+@media screen and (max-width:639px) {
+    .card {
+        width: 180px;
+    }
+}
+
+
+
+@media screen and (max-width:552px) {
+
+    aside {
+        padding: 10px 5px;
+    }
+
+    .card {
+        width: 240px;
+    }
+
+    .series {
+        padding: 10px 5px;
+    }
+
+    .logo-small {
+        display: initial;
+        width: 35px;
+    }
+
+    .icon-small {
+        width: 35px;
+    }
+
+    .logo-big {
+        display: none;
+    }
+
+    .playlist {
+        display: none;
+    }
+
+    .specific {
+        display: none;
+    }
+
+    aside>div {
+        padding: 5px 0;
+    }
+
 }
