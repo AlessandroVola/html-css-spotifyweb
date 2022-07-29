@@ -54,6 +54,7 @@ h4 {
     flex-wrap: wrap;
 }
 
+
 /* content */
 /* desktop first */
 .web-app {
@@ -156,10 +157,10 @@ header a {
 
 /* typenav */
 .typenav>* {
-    padding: 0 8px;
+    padding: 0 12px 10px 12px;
     color: white;
     opacity: 0.5;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 
@@ -179,7 +180,7 @@ header a {
 }
 
 .card div {
-    padding: 5px 5px;
+    padding: 15px 5px 0px 5px;
 }
 
 .name {
@@ -232,7 +233,7 @@ footer {
 
     .logo-small {
         display: initial;
-        width: 35px;
+        width: 33px;
     }
 
     .icon-small {
