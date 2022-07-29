@@ -203,8 +203,18 @@ footer {
     background-color: #282828;
     height: 10vh;
     width: 100%;
+    padding: 21px;
 }
 
+footer img {
+    width: 15%;
+}
+
+footer .volume {
+    padding: 2px 50px;
+    background-color: white;
+    border-radius: 30px;
+}
 
 
 /* query */
