@@ -168,13 +168,13 @@ header a {
 /* series */
 .series {
     color: white;
-    padding: 10px 0px 0px 30px;
+    padding: 10px 0px 0px 15px;
 }
 
 
 
 .card {
-    width: 180px;
+    width: calc(100% / 6);
     padding: 20px 15px 20px 0;
 }
 
@@ -207,13 +207,13 @@ footer {
 /* query */
 @media screen and (max-width:878px) {
     .card {
-        width: 150px;
+        width: calc(100% / 4);
     }
 }
 
 @media screen and (max-width:639px) {
     .card {
-        width: 180px;
+        width: calc(100% / 2);
     }
 }
 
@@ -226,12 +226,9 @@ footer {
     }
 
     .card {
-        width: 240px;
+        width: calc(100% / 2);
     }
 
-    .series {
-        padding: 10px 5px;
-    }
 
     .logo-small {
         display: initial;
